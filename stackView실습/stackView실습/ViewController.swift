@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let stackView = UIStackView()
         stackView.axis = .horizontal
         stackView.spacing = 10
-        stackView.backgroundColor = .blue
+        stackView.backgroundColor = .white
         stackView.distribution = .fillEqually
         stackView.alignment = .top
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         stackView1.axis = .vertical
         stackView1.spacing = 10
         stackView1.alignment = .center
-        stackView1.backgroundColor = .darkGray
+        stackView1.backgroundColor = .white
         stackView1.translatesAutoresizingMaskIntoConstraints = false
         return stackView1
     }()
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         stackView2.axis = .vertical
         stackView2.spacing = 10
         stackView2.alignment = .center
-        stackView2.backgroundColor = .darkGray
+        stackView2.backgroundColor = .white
         stackView2.translatesAutoresizingMaskIntoConstraints = false
         return stackView2
     }()
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         stackView3.axis = .vertical
         stackView3.spacing = 10
         stackView3.alignment = .center
-        stackView3.backgroundColor = .darkGray
+        stackView3.backgroundColor = .white
         stackView3.translatesAutoresizingMaskIntoConstraints = false
         return stackView3
     }()
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         stackView4.axis = .vertical
         stackView4.spacing = 10
         stackView4.alignment = .center
-        stackView4.backgroundColor = .darkGray
+        stackView4.backgroundColor = .white
         stackView4.translatesAutoresizingMaskIntoConstraints = false
         return stackView4
     }()
